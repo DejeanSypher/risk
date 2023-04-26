@@ -123,9 +123,11 @@ class Board(object):
     def is_valid_attack_path(self, path):
         '''
         The rules of Risk state that when attacking, 
-        a player's armies cannot move through territories they already occupy;
+        a player's armies cannot move
+        through territories they already occupy;
         they must move through enemy territories.
-        All valid attacks, therefore, will follow a path of starting on one player's territory and moving trough enemy territories.
+        All valid attacks, therefore, will follow a
+        path of starting on one player's territory and moving trough enemy territories.
 
         Formally, an attack path is a valid path satisfying the following two additional properties:
         1. An attack path must contain at least two territories;
